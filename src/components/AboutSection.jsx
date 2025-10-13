@@ -3,68 +3,38 @@ import { Briefcase, Code, User } from "lucide-react"
 
 export const AboutSection = () => {
 
-    return <section id="about" className="py24 px4 relative">
+    return <section id="about" className="py-3 px-4 relative">
 
-            <div className="container mx-auto max-w-5xl">
-                <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            <div className="container mx-auto max-w-5xl mt-20">
+                <h2 className="text-3xl md:text-5xl font-bold mb-20 text-center margin">
                     About <span className="text-primary"> Me</span>
                 </h2>
 
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 items-center ml-[-120px]">
                     <div className="space-y-6">
-                        <h3 className="text-2xl font-semibold">Passionate Web Developer & Tech Creator</h3>
-
-                        <p className="text-muted-foreground">Description 1</p>
-
-                        <p className="text-muted-foreground">Description 1</p>
-
-                        <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                            <a href="#contact" className="cosmic-button">
-                                Get In Touch
-                            </a>
-
-                            <a href="#contact" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
-                                Download Resume
-                            </a>
-                        </div>
+                        <img src="/projects/pfp.jpeg" className="rounded-full object-cover w-105 h-105"></img>
                     </div>
 
-                    <div className="grid grid-cols-1 gap-6">
-                        <div className="gradient-border p-6 card-hover">
+                    <div className="grid grid-cols-1 gap-6 ml-[-30px]">
+                        <div className="gradient-border p-6 card-hover w-[750px] mx-auto">
                             <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10">
-                                    <Code className="h-6 w-6 text-primary" />
-                                </div>
-                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Web Developement</h4>
-                                    <p className="text-muted-foreground">Desc 1</p>
+                                <div className="text-left space-y-4">
+                                    <p className="text-muted-foreground break-words text-lg">
+                                        Hi! I'm Irfan Shahid, a third-year Software Engineering student at McMaster University and an international student who took a leap to study abroad in pursuit of growth, challenge, and opportunity.
+                                    </p>
+                                    <p className="text-muted-foreground break-words text-lg">
+                                        My journey into software began long before university—sparked by curiosity about how the apps and systems we use everyday actually work. That curiosity turned into a passion for problem-solving, and eventually, a decision to study software engineering abroad  where I could push myself both technically and personally.
+                                    </p>
+                                    <p className="text-muted-foreground break-words text-lg">
+                                        Right now, I am looking for an internship opportunity where I can apply my technical skills, contribute to meaningful projects, and continue learning from experienced developers. For me, every new project is another step in my journey of growth—and I am eager to take that next step with a team that values curiosity, impact, and innovation.
+                                    </p>
+                                    <p className="text-muted-foreground break-words text-lg">
+                                        Let's connect to share ideas, collaborate on projects, and explore new opportunities together!
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div className="gradient-border p-6 card-hover">
-                            <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10">
-                                    <User className="h-6 w-6 text-primary" />
-                                </div>
-                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg">Design</h4>
-                                    <p className="text-muted-foreground">Desc 2</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="gradient-border p-6 card-hover">
-                            <div className="flex items-start gap-4">
-                                <div className="p-3 rounded-full bg-primary/10">
-                                    <Briefcase className="h-6 w-6 text-primary" />
-                                </div>
-                                <div className="text-left">
-                                    <h4 className="font-semibold text-lg">AI</h4>
-                                    <p className="text-muted-foreground">Desc 3</p>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
 
