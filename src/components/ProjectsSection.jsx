@@ -8,18 +8,17 @@ const projects = [
         description: "Full-stack web application that analyzes uploaded food images to estimate calorie and macronutrient values inreal time",
         image: "/projects/nutrilens.png",
         tags: ["React", "TailwindCSS", "Flask", "TensorFlow"],
-        demoUrl: "#",
-        githubUrl: "#",
+        
+        githubUrl: "https://github.com/Irfxn21/NutriLens",
     },
 
     {
         id: 2,
-        title: "Minesweeper",
+        title: "Star Wars Minesweeper",
         description: "Star Wars inspired version of Minesweeper on linux, playable on both command line and graphical interface",
         image: "/projects/minesweeper.png",
         tags: ["C", "GTK", "Linux"],
-        demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Irfxn21/Minesweeper",
     },
 
     {
@@ -28,8 +27,7 @@ const projects = [
         description: "Machine learning model used to predict Premier League soccer matches",
         image: "/projects/soccer.png",
         tags: ["Python", "Pandas","BS4", "Scikit-Learn"],
-        demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Irfxn21/Premier-League-Match-Predictor",
     },
 
     {
@@ -37,9 +35,8 @@ const projects = [
         title: "Amazon Website Clone",
         description: "Recreation of a sample Amazon Website with user interactivity, including features like cart management and checkout",
         image: "/projects/amazon.png",
-        tags: ["Python", "Pandas","BS4", "Scikit-Learn"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["HTML", "CSS","JavaScript"],
+        githubUrl: "https://github.com/Irfxn21/Amazon-Website",
     },
 
     {
@@ -47,9 +44,8 @@ const projects = [
         title: "Maze Runner",
         description: "Maze solving algorithm that computes an escape path for any given maze",
         image: "/projects/maze.png",
-        tags: ["Java", "Maven"],
-        demoUrl: "#",
-        githubUrl: "#",
+        tags: ["Java", "Maven", "Apache CLI"],
+        githubUrl: "https://github.com/Irfxn21/A1-MazeRunner",
     },
 
     {
@@ -58,8 +54,7 @@ const projects = [
         description: "Machine learning model used to predict Premier League soccer matches",
         image: "/projects/portfolio.png",
         tags: ["React", "Tailwind CSS","Vite"],
-        demoUrl: "#",
-        githubUrl: "#",
+        githubUrl: "https://github.com/Irfxn21/Portfolio",
     },
 ];
 
